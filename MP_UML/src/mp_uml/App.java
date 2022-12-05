@@ -49,7 +49,7 @@ public class App {
 				String isCom = scan.next();
 				boolean isComposer = Boolean.getBoolean(isCom);
 				
-				Compositor comp1 = new Compositor(name_composer, composer_music, isComposer);
+				Artist comp1 = new Compositor(name_composer, composer_music, isComposer);
 				
 				System.out.println(comp1.toString());
 				
